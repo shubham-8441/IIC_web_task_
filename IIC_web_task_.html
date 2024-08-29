@@ -1,0 +1,112 @@
+
+Here is a simplified version of the code, implementing the basic styles:
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIC_frontend_task</title>
+    <style>
+
+        h3{
+            color: #90558b;
+            background-color: beige;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        form {
+            width: 50%;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
+        
+        
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #170e0e;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #a77aa3;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #093c0a;
+        }
+    </style>
+
+    
+</head>
+<body>
+
+    <form action="backend.php">
+
+        <div>Username:<input type="text" name="username" required><br><br>
+            Password:<input type="password" name="password" required><br><br>
+</div>
+    
+<h3>Provide your basic Details:-</h3>
+    
+    <div>
+        
+
+        Name:<input type="text" name="applicant's name" id = "name" > <br><br>
+
+        
+        Current Year:<input type="text" id="year"><br><br><br>
+
+        recent image:<input type="file"><br> <br>
+
+        Your CPI till 2nd year:<input type="number"> <br><br>
+
+        Are You part of any comittee OR CLUB?:<input type="text"><br><br>
+
+        Your hobby:<input type="text"> <br><br>
+
+        <label for="MY gender"> Your Gender</label>
+       <select name="Gender" , id="MY gender">
+            <option value="F"> female</option>
+            <option value="M" selected >Male</option>
+            <option value="O">Other</option>
+        </select><br><br>
+
+        Your DOB:<input type="date"> <br> <br>
+
+
+
+    
+        Your Interest: Core<input type="radio" name="My interest">Software<input type="radio" name="My interest"><br><br>
+
+        <input type="submit" , value="submit responses"><br><br>
+
+        <input type="reset" , value="reset now">
+
+    </div>
+
+
+</form>
+
+
+
+    
+        
+    
+</body>
+</html>
+        
+
+
+
